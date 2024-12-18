@@ -1,0 +1,41 @@
+/* Only include things within the section tags */
+section{
+    text-align: center;
+}
+section > h1{
+    padding: 0.5em 20px 20px 20px;
+    font-size: 36px;
+}
+section > p {
+    padding-bottom: 3em;
+    padding-top: 0.5em;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    background-color: #9c1c1c;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.box h2{
+    border-bottom: 1px solid #1c9c1c;
+    padding-bottom: 10px;
+}
+.box p{
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .boxes{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box{
+        max-width: unset;
+    }
+}

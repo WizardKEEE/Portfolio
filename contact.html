@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1>Contact Information</h1>
+            <p><b>Email:</b> a.mckale.c@gmail.com</p>
+            <p><b>Phone Number:</b> (623) 505-8264</p>
+            <p><b>Location:</b> Arizona</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.670925339759!2d-112.29541422400197!3d33.5359404733557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4104080a1fe1%3A0x47d1deb3cd53d256!2s6997%20N%20Glen%20Harbor%20Blvd%2C%20Glendale%2C%20AZ%2085307!5e0!3m2!1sen!2sus!4v1734465544212!5m2!1sen!2sus" width="90%" height="auto" style="border:0; aspect-ratio: 16/12;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            <box-icon name='github' type='logo' ><a href="https://github.com/WizardKEEE" target="_blank"><img src="images/github-logo-24.png" alt="Github Logo"></a></box-icon>
+        </div>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="topic">Topic</label>
+            <input type="text" id="topic" name="topic" required>
+            <label for="content">Content</label>
+            <textarea id="content" name="content" rows="10"></textarea>
+            <input type="button" id="btn" name="btn" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Andrew Cassella. All rights reserved</p>
+    </footer>
+</body>
+</html>
